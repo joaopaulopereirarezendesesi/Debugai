@@ -12,7 +12,7 @@ const app = express();
 // Middleware é uma função que tem acesso ao objeto de requisição (req), ao objeto de resposta (res) e à próxima função middleware na pilha de middlewares do Express.
 // O middleware pode executar qualquer código, fazer alterações na requisição e na resposta, encerrar a requisição ou chamar a próxima função middleware na pilha.
 
-// next() é uma função que passa o controle para o próximo middleware na pilha de middlewares do Express
+// next() é uma função que passa o controle para o próximo middleware na pilha de middlewares do Express (passa a requisição para a proxima função ou linha).
 
 //  Habilitando interpretação de corpo de requisições como JSON.
 app.use(express.json());
