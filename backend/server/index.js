@@ -8,6 +8,8 @@ require("dotenv").config();
 // Criando uma instância do express
 const app = express();
 
+// next() é uma função que passa o controle para o próximo middleware na pilha de middlewares do Express
+
 //  Habilitando interpretação de corpo de requisições como JSON.
 app.use(express.json());
 // Habilitando interpretação de corpo de requisições como URL-encoded.
